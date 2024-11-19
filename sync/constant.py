@@ -1,6 +1,6 @@
 shift = 0.001
 num_iterations = 600
-error = 10**(-8)
+error = 10**(-5)
 
 def num_params_on_active_gates(active_gates):
     num_params = 0
