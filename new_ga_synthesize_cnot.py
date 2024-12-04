@@ -48,6 +48,6 @@ if __name__ == '__main__':
         fitness_func = fitness_synthesis,
         generator_func = generator.by_num_cnot,
         crossover_func = crossover.onepoint(
-            divider.by_depth(int(env_metadata.depth/2)), 
-            normalizer.by_depth(env_metadata.depth))
+            divider.by_num_cnot(int(env_metadata.num_cnot/2)), 
+            normalizer.by_num_cnot(env_metadata.num_cnot))
     ).evol()
