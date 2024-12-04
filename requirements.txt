@@ -1,5 +1,7 @@
-qiskit==0.45.1
-qiskit-nature==0.7.1
+qiskit
+qiskit-nature
+pennylane
+pennylane-qiskit
+qiskit-algorithms
 pyscf
 pylatexenc
-qiskit-aer==0.13.2
